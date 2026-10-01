@@ -1,0 +1,4 @@
+telethon>=1.45,<2
+python-dotenv>=1.0
+# opcional, acelera bastante a criptografia do MTProto (downloads/uploads)
+cryptg>=0.5
