@@ -97,3 +97,5 @@ Pasta única numerada, com um `.legenda.txt` por arquivo, o `00 - GUIA DE NAVEGA
 - Se o processo cair **entre** o envio de uma mídia e a gravação do manifest, ela pode ser reenviada em duplicidade na próxima execução. A janela é de milissegundos. O estado é gravado logo após cada envio; com legenda longa, a mídia e o texto são etapas separadas, então uma falha no texto nunca reenvia a mídia.
 - Erros do destino que não se resolvem tentando de novo (sem permissão, legenda longa demais) param o envio na hora, com orientação, sem novas tentativas.
 - O destino é identificado pelo texto exato do `--to`. Use sempre a mesma forma (por exemplo, sempre o ID numérico) para a retomada reconhecer o que já foi enviado.
+
+> Criado em 1 prompt com Claude Code
